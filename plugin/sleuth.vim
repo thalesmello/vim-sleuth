@@ -168,4 +168,5 @@ augroup sleuth
   autocmd FileType * call s:detect()
 augroup END
 
+command! VimSleuthReload call s:detect()
 " vim:set et sw=2:
